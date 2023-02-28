@@ -52,3 +52,4 @@ git push -u origin nom_de_la_branche
 ```
 Cette commande pousse les modifications du dépôt local vers le dépôt Github.
 Remplacez "nom_de_la_branche" par le nom de la branche que vous souhaitez pousser.
+
