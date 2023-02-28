@@ -15,11 +15,14 @@ Pour créer un nouveau dépôt Git, ouvrez l'invite de commande et naviguez vers
 git init
 ```
 # 3 . Ajout de fichiers au dépôt Git
-Maintenant que vous avez initialisé votre dépôt Git, vous pouvez y ajouter des fichiers. Copiez les fichiers que vous souhaitez ajouter dans le dossier du dépôt, puis tapez la commande suivante pour les ajouter :
+Pour ajouter des fichiers à votre dépôt Git, vous pouvez utiliser la commande suivante :
 ```
 git add <nom-fichier>
 ```
-Cette commande ajoute tous les fichiers du dossier au dépôt.
+Ou vous pouvez ajouter tous les fichiers en une seule fois en utilisant :
+```
+git add .
+```
 
 # 4 . Création d'un commit 
 Une fois que vous avez ajouté des fichiers au dépôt, vous devez créer un commit pour enregistrer les modifications. Tapez la commande suivante pour créer un commit :
@@ -28,10 +31,24 @@ git commit -m "Votre message de commit"
 ```
 Remplacez "Votre message de commit" par un message décrivant les modifications apportées aux fichiers.
 
-# 5 . Pousser les modifications vers le dépôt Github
+# 5 . Créer un dépôt sur GitHub 
+Maintenant, vous pouvez créer un dépôt sur GitHub en vous connectant à votre compte et en cliquant sur le bouton "Nouveau dépôt". Donnez un nom à votre dépôt et cliquez sur "Créer le dépôt".
+
+
+![image](https://user-images.githubusercontent.com/123757632/221890517-b9793939-b1a1-407b-96b4-0f3207dc9c93.png)
+
+# 6 . Ajouter un dépôt distant 
+Pour relier votre dépôt local à votre dépôt GitHub, vous pouvez utiliser la commande suivante :
+```
+git remote add origin url_du_dépôt_github
+```
+Remplacez "url_du_dépôt_github" par l'URL de votre dépôt GitHub.
+
+# 7 . Pousser les modifications vers le dépôt Github
 
 Enfin, vous pouvez pousser vos modifications vers le dépôt Github en tapant la commande suivante : 
 ```
-git push -u origin master
+git push -u origin nom_de_la_branche
 ```
 Cette commande pousse les modifications du dépôt local vers le dépôt Github.
+Remplacez "nom_de_la_branche" par le nom de la branche que vous souhaitez pousser.
