@@ -1,4 +1,4 @@
-# Git & GitHub Workshop
+# Git & GitHub Workshop 1
 
 Dans cet atelier, nous allons vous guider à travers des étapes pour utiliser Git et Github. Nous allons vous montrer comment créer un nouveau dépôt Git, ajouter des
 fichiers à ce dépôt, créer des commits pour enregistrer les modifications, créer un nouveau dépôt Github, ajouter le dépôt local au dépôt Github et pousser les modifications vers le dépôt Github.
