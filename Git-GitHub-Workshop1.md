@@ -16,25 +16,26 @@ Pour créer un nouveau dépôt Git, Alice et Bob ouvrez l'invite de commande et 
 git init
 ```
 
-# 3 . Travailler sur des fichiers dans le dépôt 
-Bob  : 
+# 3 . Travailler sur un fichier dans le dépôt 
 
-Créez un fichier texte "bob.txt" en utilisant un éditeur de texte
-Pour ajouter des fichiers à votre dépôt Git, vous pouvez utiliser la commande suivante :
-```
-git add bob.txt
-```
+Créez un fichier texte "fichier.txt" en utilisant un éditeur de texte
 
-Alice : 
-
-Créez un fichier texte "alice.txt" en utilisant un éditeur de texte
-Pour ajouter des fichiers à votre dépôt Git, vous pouvez utiliser la commande suivante :
+Ajouter le fichier à la zone de staging.La zone de staging est une zone intermédiaire qui contient les modifications que vous souhaitez inclure dans votre prochain commit, vous pouvez utiliser la commande suivante :
 ```
-git add alice.txt
+git add <nom-fichier>
+```
+Pour valider les modifications et ajouter un message de commit qui décrit les changements vous pouvez utiliser la commande suivante : 
+
+```
+git commit -m <nom-fichier>
+```
+Pour pousser les modifications sur le dépôt vous pouvez utiliser la commande suivante : 
+```
+git push
 ```
 
 # 4 . Création de deux branches 
-
+ 
 Bob  : 
 
 crée une branche et l’utilise :
