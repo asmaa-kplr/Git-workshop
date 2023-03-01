@@ -24,12 +24,14 @@ Ajouter le fichier à la zone de staging.La zone de staging est une zone interm�
 ```
 git add <nom-fichier>
 ```
+
 # 4 . Création d'un commit 
 Une fois que vous avez ajouté le fichier au dépôt, vous devez créer un commit pour enregistrer les modifications. Tapez la commande suivante pour créer un commit :
 ```
 git commit -m "Votre message de commit"
 ```
 Remplacez "Votre message de commit" par un message décrivant les modifications apportées aux fichiers example : "j'ajoute un fichier".
+
 
 # 5 . Créer un dépôt sur GitHub 
 Maintenant, vous pouvez créer un dépôt sur GitHub en vous connectant à votre compte et en cliquant sur le bouton "Nouveau dépôt". Donnez un nom à votre dépôt et cliquez sur "Créer le dépôt".
