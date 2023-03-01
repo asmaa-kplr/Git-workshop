@@ -47,11 +47,12 @@ git clone https://github.com/USERNAME/NOM-REFERENTIEL.git
 
 # 6 . Création d'un référentiel distant 
 
-Pour créer un référentiel distant, vous pouvez créer un nouveau dépôt sur GitHub, puis ajouter un remote au dépôt local à l'aide de la commande "git remote add". 
+Pour créer un référentiel distant, ajouter un remote au dépôt local à l'aide de la commande "git remote add". 
 ```
 git remote add origin url_du_référentiel_distant
 git push -u origin nom_de_la_branche
 ```
+
 Cela termine notre atelier GitHub. Vous avez maintenant appris à créer un nouveau dépôt, créer une branche, effectuer des commits, créer des demandes de retrait et cloner un dépôt existant. Enfin, nous avons créé un référentiel distant pour synchroniser vos modifications avec les dépôts en ligne.
 
 
