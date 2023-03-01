@@ -3,25 +3,47 @@
 Dans cet atelier, nous allons vous guider à travers des étapes pour utiliser Git et Github. Nous allons vous montrer comment créer un nouveau dépôt Git, ajouter des
 fichiers à ce dépôt, créer des commits pour enregistrer les modifications, créer un nouveau dépôt Github, ajouter le dépôt local au dépôt Github et pousser les modifications vers le dépôt Github.
 
+
 # 1 . Configuration de Git
-Ouvrez l'invite de commande sur votre ordinateur et tapez les commandes suivantes pour configurer votre nom d'utilisateur et votre adresse e-mail :
+Alice et Bob : Ouvrez l'invite de commande sur votre ordinateur et tapez les commandes suivantes pour configurer votre nom d'utilisateur et votre adresse e-mail :
 ```
 git config --global user.name "Votre nom d'utilisateur"
 git config --global user.email "Votre adresse e-mail"
 ```
 # 2 . Création d'un nouveau dépôt Git
-Pour créer un nouveau dépôt Git, ouvrez l'invite de commande et naviguez vers le dossier où vous souhaitez créer votre dépôt. Tapez la commande suivante pour initialiser un nouveau dépôt Git :
+Pour créer un nouveau dépôt Git, Alice et Bob ouvrez l'invite de commande et naviguez vers le dossier où vous souhaitez créer votre dépôt. Tapez la commande suivante pour initialiser un nouveau dépôt Git :
 ```
 git init
 ```
-# 3 . Ajout de fichiers au dépôt Git
+# 3 . Création de deux branches 
+
 Pour ajouter des fichiers à votre dépôt Git, vous pouvez utiliser la commande suivante :
 ```
 git add <nom-fichier>
 ```
-Ou vous pouvez ajouter tous les fichiers en une seule fois en utilisant :
+
+Bob  : 
+
+crée une branche et l’utilise :
 ```
-git add .
+git branch branche1
+git checkout branche1
+```
+ou en une seule commande :
+```
+git checkout -b branche1
+```
+
+Alice : 
+
+crée une branche et l’utilise :
+```
+git branch branche2
+git checkout branche2
+```
+ou en une seule commande :
+```
+git checkout -b branche2
 ```
 
 # 4 . Création d'un commit 
