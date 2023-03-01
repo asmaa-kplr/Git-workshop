@@ -53,6 +53,7 @@ git remote add origin url_du_référentiel_distant
 git push -u origin nom_de_la_branche
 ```
 
+
 Cela termine notre atelier GitHub. Vous avez maintenant appris à créer un nouveau dépôt, créer une branche, effectuer des commits, créer des demandes de retrait et cloner un dépôt existant. Enfin, nous avons créé un référentiel distant pour synchroniser vos modifications avec les dépôts en ligne.
 
 
