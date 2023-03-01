@@ -10,6 +10,7 @@ URL : //////////
 ```
 git clone url_du_dépôt_github
 ```
+
 # 2 . Travail collaboratif 
 ## Bob crée une brache et l'utilise : 
 ```
