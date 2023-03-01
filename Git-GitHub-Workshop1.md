@@ -24,70 +24,36 @@ Ajouter le fichier à la zone de staging.La zone de staging est une zone interm�
 ```
 git add <nom-fichier>
 ```
-Pour valider les modifications et ajouter un message de commit qui décrit les changements vous pouvez utiliser la commande suivante : 
-
-```
-git commit -m <nom-fichier>
-```
-Pour pousser les modifications sur le dépôt vous pouvez utiliser la commande suivante : 
-```
-git push
-```
-
-# 4 . Création de deux branches 
- 
-Bob  : 
-
-crée une branche et l’utilise :
-```
-git branch branche1
-git checkout branche1
-```
-ou en une seule commande :
-```
-git checkout -b branche1
-```
-
-Alice : 
-
-crée une branche et l’utilise :
-```
-git branch branche2
-git checkout branche2
-```
-ou en une seule commande :
-```
-git checkout -b branche2
-```
-
-# 5 . Création d'un commit 
-Une fois que vous avez ajouté des fichiers au dépôt, vous devez créer un commit pour enregistrer les modifications. Tapez la commande suivante pour créer un commit :
+# 4 . Création d'un commit 
+Une fois que vous avez ajouté le fichier au dépôt, vous devez créer un commit pour enregistrer les modifications. Tapez la commande suivante pour créer un commit :
 ```
 git commit -m "Votre message de commit"
 ```
-Remplacez "Votre message de commit" par un message décrivant les modifications apportées aux fichiers.
+Remplacez "Votre message de commit" par un message décrivant les modifications apportées aux fichiers example : "j'ajoute un fichier".
 
-# 6 . Créer un dépôt sur GitHub 
+# 5 . Créer un dépôt sur GitHub 
 Maintenant, vous pouvez créer un dépôt sur GitHub en vous connectant à votre compte et en cliquant sur le bouton "Nouveau dépôt". Donnez un nom à votre dépôt et cliquez sur "Créer le dépôt".
 
 
 ![image](https://user-images.githubusercontent.com/123757632/221890517-b9793939-b1a1-407b-96b4-0f3207dc9c93.png)
 
-# 7 . Ajouter un dépôt distant 
+# 6 . Ajouter un dépôt distant 
 Pour relier votre dépôt local à votre dépôt GitHub, vous pouvez utiliser la commande suivante :
 ```
 git remote add origin url_du_dépôt_github
 ```
+cliquez sur le bouton "Clone or download" et copiez l'URL du dépôt.
+![image](https://user-images.githubusercontent.com/123757632/221907903-06ae3b01-5648-4438-bf1d-5f5c72946693.png)
+
 Remplacez "url_du_dépôt_github" par l'URL de votre dépôt GitHub.
 
-# 8 . Pousser les modifications vers le dépôt Github
+# 7 . Pousser les modifications vers le dépôt Github
 
 Enfin, vous pouvez pousser vos modifications vers le dépôt Github en tapant la commande suivante : 
 ```
-git push -u origin nom_de_la_branche
+git push -u origin master
 ```
 Cette commande pousse les modifications du dépôt local vers le dépôt Github.
-Remplacez "nom_de_la_branche" par le nom de la branche que vous souhaitez pousser.
 
 
 Voilà, vous avez maintenant créé un nouveau dépôt Git, ajouté des fichiers, créé un commit, créé un dépôt sur GitHub, ajouté un dépôt distant et poussé vos modifications sur GitHub ! 
