@@ -51,7 +51,7 @@ Remplacez "url_du_dépôt_github" par l'URL de votre dépôt GitHub.
 
 Enfin, vous pouvez pousser vos modifications vers le dépôt Github en tapant la commande suivante : 
 ```
-git push -u origin master
+git push -u origin main
 ```
 Cette commande pousse les modifications du dépôt local vers le dépôt Github.
 
