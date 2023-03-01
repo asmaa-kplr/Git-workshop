@@ -15,12 +15,25 @@ Pour créer un nouveau dépôt Git, Alice et Bob ouvrez l'invite de commande et 
 ```
 git init
 ```
-# 3 . Création de deux branches 
 
+# 3 . Travailler sur des fichiers dans le dépôt 
+Bob  : 
+
+Créez un fichier texte "bob.txt" en utilisant un éditeur de texte
 Pour ajouter des fichiers à votre dépôt Git, vous pouvez utiliser la commande suivante :
 ```
-git add <nom-fichier>
+git add bob.txt
 ```
+
+Alice : 
+
+Créez un fichier texte "alice.txt" en utilisant un éditeur de texte
+Pour ajouter des fichiers à votre dépôt Git, vous pouvez utiliser la commande suivante :
+```
+git add alice.txt
+```
+
+# 4 . Création de deux branches 
 
 Bob  : 
 
@@ -46,27 +59,27 @@ ou en une seule commande :
 git checkout -b branche2
 ```
 
-# 4 . Création d'un commit 
+# 5 . Création d'un commit 
 Une fois que vous avez ajouté des fichiers au dépôt, vous devez créer un commit pour enregistrer les modifications. Tapez la commande suivante pour créer un commit :
 ```
 git commit -m "Votre message de commit"
 ```
 Remplacez "Votre message de commit" par un message décrivant les modifications apportées aux fichiers.
 
-# 5 . Créer un dépôt sur GitHub 
+# 6 . Créer un dépôt sur GitHub 
 Maintenant, vous pouvez créer un dépôt sur GitHub en vous connectant à votre compte et en cliquant sur le bouton "Nouveau dépôt". Donnez un nom à votre dépôt et cliquez sur "Créer le dépôt".
 
 
 ![image](https://user-images.githubusercontent.com/123757632/221890517-b9793939-b1a1-407b-96b4-0f3207dc9c93.png)
 
-# 6 . Ajouter un dépôt distant 
+# 7 . Ajouter un dépôt distant 
 Pour relier votre dépôt local à votre dépôt GitHub, vous pouvez utiliser la commande suivante :
 ```
 git remote add origin url_du_dépôt_github
 ```
 Remplacez "url_du_dépôt_github" par l'URL de votre dépôt GitHub.
 
-# 7 . Pousser les modifications vers le dépôt Github
+# 8 . Pousser les modifications vers le dépôt Github
 
 Enfin, vous pouvez pousser vos modifications vers le dépôt Github en tapant la commande suivante : 
 ```
