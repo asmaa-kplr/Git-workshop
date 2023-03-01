@@ -33,7 +33,6 @@ Pour faire une requête pull, suivez les étapes ci-dessous :
 ![image](https://user-images.githubusercontent.com/123757632/221907414-c00476f9-50dc-4312-a908-ac532c3bb27c.png)
 
 
-
 # 5 . Clonage d'un dépôt 
 
 Pour cloner un dépôt existant, accédez à la page du dépôt sur GitHub, cliquez sur le bouton "Clone or download" et copiez l'URL du dépôt.
