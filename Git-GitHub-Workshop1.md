@@ -39,6 +39,7 @@ Maintenant, vous pouvez créer un dépôt sur GitHub en vous connectant à votre
 
 ![image](https://user-images.githubusercontent.com/123757632/221890517-b9793939-b1a1-407b-96b4-0f3207dc9c93.png)
 
+
 # 6 . Ajouter un dépôt distant 
 Pour relier votre dépôt local à votre dépôt GitHub, vous pouvez utiliser la commande suivante :
 ```
