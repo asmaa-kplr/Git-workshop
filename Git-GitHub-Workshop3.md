@@ -7,6 +7,7 @@ Connectez-vous à votre compte GitHub et cliquez sur le bouton "New" pour créer
 ![image](https://user-images.githubusercontent.com/123757632/221904279-c5a2d920-5b45-4193-b599-1cc21daae210.png)
 # 2 . Ajouter un collaborateur 
 Pour ajouter un collaborateur à un dépôt GitHub, suivez les étapes suivantes:
+
 Allez dans votre nouveau dépôt puis cliquez sur le bouton "Settings" en haut de la page du dépôt , cliquez sur "Collaborators" puis "Add people" , entrez le nom d'utilisateur ou l'adresse e-mail du collaborateur que vous souhaitez inviter et cliquez sur le bouton " Add collaborator to this repository" .
 
 Le collaborateur recevra alors une invitation par e-mail. Il devra l'accepter pour accéder au dépôt. Une fois qu'il aura accepté l'invitation, le collaborateur pourra cloner le repo et y contribuer en fonction de son niveau d'accès.
