@@ -13,12 +13,12 @@ Allez dans votre nouveau dépôt puis cliquez sur le bouton "Settings" en haut d
 Le collaborateur recevra alors une invitation par e-mail. Il devra l'accepter pour accéder au dépôt. Une fois qu'il aura accepté l'invitation, le collaborateur pourra cloner le repo et y contribuer en fonction de son niveau d'accès.
 ![image](https://user-images.githubusercontent.com/123757632/222380018-39212414-882d-412f-a6a4-63348bba1ce6.png)
 
-# 2 . Création d'une branche 
+# 3 . Création d'une branche 
 Pour créer une nouvelle branche, Allez dans votre nouveau dépôt. Appuyez sur le bouton principal et entrez le nom de votre nouvelle branche de fonctionnalité. Cliquez sur Créer une branche
 
 ![image](https://user-images.githubusercontent.com/123757632/221905296-bb65ad5a-09f5-4745-87b4-2d15b57b3826.png)
 
-# 3 . Effectuer et valider un changement 
+# 4 . Effectuer et valider un changement 
 Voici comment effectuer et valider un changement :
 
 Accédez à la branche de fonctionnalité en cliquant sur principal et en sélectionnant votre branche nouvellement créée dans le menu déroulant 
@@ -28,7 +28,7 @@ Cliquez sur l’icône « crayon » pour commencer à modifier le fichier. Une
 
 ![image](https://user-images.githubusercontent.com/123757632/221906262-19d84614-65db-49e2-8494-f9f35dcb765a.png)
 
-# 4 . Création de demandes de retrait 
+# 5 . Création de demandes de retrait 
 
 Si vous souhaitez apporter des modifications à une branche existante et que ces modifications doivent être fusionnées avec une autre branche, vous pouvez créer une demande de retrait. 
 
@@ -40,7 +40,7 @@ Pour faire une requête pull, suivez les étapes ci-dessous :
 ![image](https://user-images.githubusercontent.com/123757632/221907414-c00476f9-50dc-4312-a908-ac532c3bb27c.png)
 
 
-# 5 . Clonage d'un dépôt 
+# 6 . Clonage d'un dépôt 
 
 Pour cloner un dépôt existant, accédez à la page du dépôt sur GitHub, cliquez sur le bouton "Clone or download" et copiez l'URL du dépôt.
 ![image](https://user-images.githubusercontent.com/123757632/221907903-06ae3b01-5648-4438-bf1d-5f5c72946693.png)
@@ -51,7 +51,7 @@ Utilisez la commande "git clone" pour cloner le dépôt sur votre ordinateur.
 git clone https://github.com/USERNAME/NOM-REFERENTIEL.git
 ```
 
-# 6 . Création d'un référentiel distant 
+# 7 . Création d'un référentiel distant 
 
 Pour créer un référentiel distant, ajouter un remote au dépôt local à l'aide de la commande "git remote add". 
 ```
