@@ -43,7 +43,20 @@ Il est important d'utiliser la commande **git add** avant de faire un commit pou
 
 5. Commitez votre nouveau fichier.
 ```
+git commit -a -m "Mon premier Commit!"
 ```
+**git commit -a -m "Mon premier Commit!"** est une commande Git qui crée un nouveau commit avec un message de commit spécifié.
+
+L'option **-a** permet d'ajouter automatiquement tous les fichiers modifiés ou supprimés dans l'index, mais cela ne fonctionne pas pour les nouveaux fichiers. 
+
+L'option **-m** est utilisée pour spécifier le message de commit en ligne de commande, plutôt que d'ouvrir un éditeur de texte pour saisir le message.
+
+Donc, après avoir exécuté cette commande, un nouveau commit sera créé contenant les modifications de tous les fichiers ajoutés à l'index, avec le message de commit **"Mon premier Commit!"**.
+
 6. Exécutez une commande Git pour vérifier que votre commit a bien été enregistré.
 ```
+git log
 ```
+**git log** est une commande Git qui affiche l'historique des commits dans l'ordre chronologique inverse, du plus récent au plus ancien.
+
+Cette commande est utile pour visualiser l'historique des commits d'un dépôt Git et pour suivre les modifications apportées aux fichiers au fil du temps.
