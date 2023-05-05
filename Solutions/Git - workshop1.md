@@ -32,6 +32,14 @@ La redirection **>** permet de rediriger la sortie de la commande echo vers le f
 Ainsi, suite à l'exécution de cette commande, un fichier appelé **"file"** sera créé dans le répertoire courant contenant la chaîne de caractères **"hello_commit"**.
 
 4. Ajoutez le fichier "file" a l'index Git.
+```
+git add file
+```
+**git add file** est une commande Git qui permet d'ajouter le fichier **"file"** à l'index Git. 
+
+Cela signifie que le fichier est maintenant suivi par Git et que les modifications apportées à ce fichier seront incluses dans le prochain commit.
+
+Il est important d'utiliser la commande **git add** avant de faire un commit pour que Git sache quels fichiers doivent être inclus dans ce commit.
 
 5. Commitez votre nouveau fichier.
 ```
