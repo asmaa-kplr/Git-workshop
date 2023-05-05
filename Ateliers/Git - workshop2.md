@@ -20,6 +20,7 @@ Apprendre à travailler avec les branches Git
 7. Ajoutez le fichier "file2" à l'index Git pour préparer le commit
 8. Créez un nouveau commit
 9. Vérifiez que le commit que vous avez créé se trouve uniquement dans la branche "dev"
+10. Vérifiez la branche "master"
 
 
 
