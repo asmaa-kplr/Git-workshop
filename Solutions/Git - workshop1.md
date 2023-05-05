@@ -13,7 +13,12 @@ Cette commande permet de créer un nouveau répertoire avec un nom donné en uti
 
 2. Transformez-le en dépôt Git.
 ```
+git init
 ```
+Cette commande initialise un nouveau dépôt Git dans le répertoire courant ou dans un répertoire spécifié en créant un dossier caché appelé **".git"**.
+
+Après l'exécution de la commande **git init**, le répertoire est prêt à être utilisé comme un dépôt Git local pour suivre les changements, créer des commits, des branches, des tags, etc.
+
 3. Créez un nouveau fichier nommé "file" contenant le texte "hello commit".
 ```
 ```
