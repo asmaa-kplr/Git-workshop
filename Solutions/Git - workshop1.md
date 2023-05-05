@@ -31,9 +31,11 @@ La redirection **>** permet de rediriger la sortie de la commande echo vers le f
 
 Ainsi, suite à l'exécution de cette commande, un fichier appelé **"file"** sera créé dans le répertoire courant contenant la chaîne de caractères **"hello_commit"**.
 
-4. Commitez votre nouveau fichier.
+4. Ajoutez le fichier "file" a l'index Git.
+
+5. Commitez votre nouveau fichier.
 ```
 ```
-5. Exécutez une commande Git pour vérifier que votre commit a bien été enregistré.
+6. Exécutez une commande Git pour vérifier que votre commit a bien été enregistré.
 ```
 ```
