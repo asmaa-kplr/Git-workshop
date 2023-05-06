@@ -4,12 +4,6 @@
 Apprendre à travailler avec les branches Git
 
 ## Instructions
-# GIT
-
-## Objectif
-Apprendre à travailler avec les branches Git
-
-## Instructions
 
 1. Choisissez un dépôt Git (ou créez-en un nouveau) avec au moins un commit
 2. Créez un nouveau fichier appelé "file1" et écrit la chaîne de caractères "master branch" à l'intérieur
