@@ -12,28 +12,37 @@ Vous travaillez sur un projet web avec votre binôme. Vous avez créé un dépô
 * Résoudre les conflits
 
 ## Instructions
-1. Clonez le dépôt sur votre ordinateur.
 
-### Binome 1  
-2. Créez une branche et l'utilisez.
-3. Ajoutez du text au fichier *chat.html.
-4. Commitez les modifications avec le message "Ajout du text - Binome 1".
-5. Créez un Pull Request sur GitHub
+### Binome 1 
+1. Créez un nouveau repository Github.
+2. Récupérez le dossier et téléchargez-le.
+3. Transformez-le en dépôt Git.
+4. Ajoutez le dossier a l'index Git.
+5. Commitez votre nouveau dossier.
+6. Ajoutez un dépôt distant à votre dossier local.
+7. Poussez vos modifications vers GitHub.
+8. Ajoutez votre binome en tant que colaborateur.
 
-### Binome 2 
-5. Récuperez la branche de votre binome.
-6. Consultez la branche.
-7. Revenez vers le main
-8. Acceptez le Pull Request
-9. Mettez a jour votre copie locale
-10. Créez une branche et l'utilisez.
+### Binome 2
+9. Clonez le depot de votre binome. 
+10. Créez une branche et publiez la.
 11. Ajoutez du text au fichier *chat.html.
-12. Commitez les modifications avec le message "Ajout du text - Binome 2".
-13. Créez un Pull Request sur GitHub
+12. Ajoutez le fichier a l'index Git.
+13. Commitez les modifications avec le message "Message de Binome 2".
+14. Poussez le dernier commit.
+15. Créez un Pull Request.
 
 ### Binome 1
-14. Récuperez la branche de votre binome.
-15. Consultez la branche.
-16. Revenez vers le main
-17. Acceptez le Pull Request
-18. Mettez a jour votre copie locale
+16. Acceptez le Pull Request.
+17. Mettez a jour votre copie locale.
+18. Créez une branche et publiez la.
+19. Ajoutez du text au fichier *chat.html.
+20. Ajoutez le fichier a l'index Git.
+21. Commitez les modifications avec le message "Ajout du text - Binome 1".
+22. Poussez le dernier commit.
+23. Créez un Pull Request sur GitHub
+
+### Binome 2
+24. Acceptez le Pull Request.
+25. Mettez a jour votre copie locale.
+
