@@ -56,23 +56,59 @@ Le collaborateur recevra alors une invitation par e-mail. Il devra l'accepter po
 ```
 git clone https://github.com/<nom-utilisateur>/<nom-repo>
 ```
-11. Créez une branche et l'utilisez.
-12. Ajoutez du text au fichier *chat.html.
-13. Commitez les modifications avec le message "Ajout du text - Binome 2".
+10. Créez une branche et publiez la.
+```
+git checkout -b <nom_branche>
+```
+```
+git push -u origin <nom_branche>
+```
+11. Ajoutez du text au fichier *chat.html.
+12. Ajoutez le fichier a l'index Git.
+```
+git add chat.html
+```
+13. Commitez les modifications avec le message "Message de Binome 2".
+```
+git commit -m "Message de Binome 2"
+```
+14. Poussez le dernier commit.
+```
+git push
+```
+15. Créez un Pull Request.
 
 ### Binome 1
-5. Récuperez la branche de votre binome.
-6. Consultez la branche.
-7. Revenez vers le main
-9. Mettez a jour votre copie locale
-10. Créez une branche et l'utilisez.
-11. Ajoutez du text au fichier *chat.html.
-12. Commitez les modifications avec le message "Ajout du text - Binome 1".
-13. Créez un Pull Request sur GitHub
+16. Acceptez le Pull Request.
+17. Mettez a jour votre copie locale.
+```
+git pull
+```
+18. Créez une branche et publiez la.
+```
+git checkout -b <nom_branche>
+```
+```
+git push -u origin <nom_branche>
+```
+19. Ajoutez du text au fichier *chat.html.
+20. Ajoutez le fichier a l'index Git.
+```
+git add chat.html
+```
+21. Commitez les modifications avec le message "Ajout du text - Binome 1".
+```
+git commit -m "Message de Binome 1"
+```
+22. Poussez le dernier commit.
+```
+git push
+```
+23. Créez un Pull Request sur GitHub
 
 ### Binome 2
-14. Récuperez la branche de votre binome.
-15. Consultez la branche.
-16. Revenez vers le main
-17. Acceptez le Pull Request
-18. Mettez a jour votre copie locale
+24. Acceptez le Pull Request.
+25. Mettez a jour votre copie locale.
+```
+git pull
+```
