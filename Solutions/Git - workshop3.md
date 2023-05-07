@@ -64,6 +64,9 @@ git checkout -b <nom_branche>
 git push -u origin <nom_branche>
 ```
 11. Ajoutez du text au fichier *chat.html.
+
+![image](https://user-images.githubusercontent.com/123757632/236679214-771003b6-f3ec-49d5-9c50-ca38bc1d7414.png)
+
 12. Ajoutez le fichier a l'index Git.
 ```
 git add chat.html
@@ -77,9 +80,46 @@ git commit -m "Message de Binome 2"
 git push
 ```
 15. Créez un Pull Request.
+Si vous souhaitez apporter des modifications à une branche existante et que ces modifications doivent être fusionnées avec une autre branche, vous pouvez créer une demande de retrait "Pull Request".
+
+* Cliquez sur le bouton "New pull request" sur la page de la branche, sélectionnez la branche de destination et créez la demande de retrait.
+
+![image (2)](https://user-images.githubusercontent.com/123757632/236679286-6c56f836-494d-49bb-93fc-5ec32f41c501.png)
+
+* Puis choisissez la branche créée 
+
+* Cliquez sur "Create pull request"
+
+![image](https://user-images.githubusercontent.com/123757632/236679408-fd90a5da-2b48-4324-bf7a-822449a6e9f2.png)
+
+* Veuillez saisir un message ou un commentaire a votre binome et cliquez sur " Create pull request"
+
+![image](https://user-images.githubusercontent.com/123757632/236679520-2ace0c8f-30cc-41c5-ab0a-3d33cb4912be.png)
 
 ### Binome 1
-16. Acceptez le Pull Request.
+16. Acceptez le Pull Request. 
+
+* Pour accepter le Pull Request de votre binome cliquez sur "Pull requests" dans la bar de votre repository
+
+![image](https://user-images.githubusercontent.com/123757632/236679653-7a935958-3137-4c44-bb83-f60bf267c85c.png)
+
+* Puis cliquez sur la dernière pull request "Message de Binome 2"
+
+![image](https://user-images.githubusercontent.com/123757632/236679719-d2a5a3d3-ef06-46d8-b6ab-b648f66148ac.png)
+
+* Cliquez sur "Merge pull request" pour le fusioner
+
+![image](https://user-images.githubusercontent.com/123757632/236679798-27c8cbaf-b289-4c3f-8acb-4818e52bd2fe.png)
+
+* Après la verification du commentaire de votre binome , cliquez sur "Confirm merge"
+
+![image](https://user-images.githubusercontent.com/123757632/236679857-f30c58cc-41a0-45de-a540-cf6d163069f5.png)
+
+La dernière modification s'ajoutera automatiquement à la liste des dernières commits 
+
+![image](https://user-images.githubusercontent.com/123757632/236679949-6d877c13-311d-48a0-aa42-accb22720b9d.png)
+
+
 17. Mettez a jour votre copie locale.
 ```
 git pull
