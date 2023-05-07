@@ -18,7 +18,7 @@ Vous travaillez sur un projet web avec votre binôme. Vous avez créé un dépô
 
 Connectez-vous à votre compte GitHub et cliquez sur le bouton "New" pour créer un nouveau dépôt. Donnez un nom et une description au dépôt et choisissez les options appropriées, telles que la visibilité et le fichier README.md. Cliquez sur le bouton "Create repository" pour créer le nouveau dépôt.
 
-![image](https://user-images.githubusercontent.com/123757632/221904279-c5a2d920-5b45-4193-b599-1cc21daae210.png)
+![image](https://user-images.githubusercontent.com/123757632/236680232-fe9c3b4c-8f94-4ba7-a767-65df9e351072.png)
 
 2. Récupérez le dossier et téléchargez-le.
 3. Transformez-le en dépôt Git.
