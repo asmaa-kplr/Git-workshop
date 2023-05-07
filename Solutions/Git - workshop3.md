@@ -109,7 +109,8 @@ Si vous souhaitez apporter des modifications à une branche existante et que ces
 
 * Cliquez sur "Merge pull request" pour le fusioner
 
-![image](https://user-images.githubusercontent.com/123757632/236679798-27c8cbaf-b289-4c3f-8acb-4818e52bd2fe.png)
+![image](https://user-images.githubusercontent.com/123757632/236680848-4b8f7181-00ca-4ecf-9aaf-f0bd24684c23.png)
+
 
 * Après la verification du commentaire de votre binome , cliquez sur "Confirm merge"
 
@@ -128,27 +129,48 @@ git pull
 ```
 git checkout -b <nom_branche>
 ```
+![image](https://user-images.githubusercontent.com/123757632/236680331-eaf61fe9-8410-4a72-a37b-8785f90be47a.png)
+
 ```
 git push -u origin <nom_branche>
 ```
+
+![image](https://user-images.githubusercontent.com/123757632/236680391-8224f2f9-0a2e-4864-be2c-501cf078bb14.png)
+
 19. Ajoutez du text au fichier *chat.html.
+
+![image](https://user-images.githubusercontent.com/123757632/236680425-51557953-f2a2-4b98-88d5-a86750b7d277.png)
+
 20. Ajoutez le fichier a l'index Git.
 ```
 git add chat.html
 ```
-21. Commitez les modifications avec le message "Ajout du text - Binome 1".
+21. Commitez les modifications avec le message "Message de Binome 1".
 ```
 git commit -m "Message de Binome 1"
 ```
+![image](https://user-images.githubusercontent.com/123757632/236680499-e7f9bacf-6f4d-46bc-9398-2ea5197be423.png)
+
 22. Poussez le dernier commit.
 ```
 git push
 ```
+![image](https://user-images.githubusercontent.com/123757632/236680550-256135e8-120e-4623-a3e6-aefd0248eadd.png)
+
 23. Créez un Pull Request sur GitHub
+
+![image](https://user-images.githubusercontent.com/123757632/236680594-3156fbcf-10dc-4663-b9dc-df5850f92ad8.png)
 
 ### Binome 2
 24. Acceptez le Pull Request.
-25. Mettez a jour votre copie locale.
+
+![image](https://user-images.githubusercontent.com/123757632/236680738-b609847a-7948-4a73-b7c5-cb0567245600.png)
+
+![image](https://user-images.githubusercontent.com/123757632/236680874-1c3a02fc-ecb3-4f80-a6b0-43678ddb29d6.png)
+
+![image](https://user-images.githubusercontent.com/123757632/236680691-4b89f787-800e-4631-b809-3af4a8d25cb1.png)
+
+26. Mettez a jour votre copie locale.
 ```
 git pull
 ```
