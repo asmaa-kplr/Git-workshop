@@ -5,7 +5,15 @@ Apprendre comment commettre des changements dans des dépôts Git.
 
 ## Instructions
 
-1. Créez un nouveau répertoire.
+1. Créez votre compte Github en visitant le lien suivant : [GitHub](https://github.com/signup?ref_cta=Sign+up&ref_loc=header+logged+out&ref_page=%2F&source=header-home)
+2. Configurer Git.
+```
+git config --global user.name "Votre nom d'utilisateur"
+git config --global user.email "Votre adresse e-mail"
+```
+Configurer le nom d'utilisateur et l'adresse e-mail pour les commits Git. Lorsque vous effectuez un commit Git, ces informations sont incluses pour que les autres développeurs sachent qui a effectué le commit et comment les contacter si nécessaire.
+
+3. Créez un nouveau répertoire.
 ```
 mkdir <nom_repo> && cd <nom_repo>
 ```
@@ -14,7 +22,7 @@ mkdir <nom_repo> && cd <nom_repo>
 
 Cette commande permet de créer un nouveau répertoire avec un nom donné en utilisant **mkdir** et de se déplacer dans ce nouveau répertoire en utilisant **cd**.
 
-2. Transformez-le en dépôt Git.
+4. Transformez-le en dépôt Git.
 ```
 git init
 ```
@@ -25,7 +33,7 @@ Cette commande initialise un nouveau dépôt Git dans le répertoire courant ou 
 
 Après l'exécution de la commande **git init**, le répertoire est prêt à être utilisé comme un dépôt Git local pour suivre les changements, créer des commits, des branches, des tags, etc.
 
-3. Créez un nouveau fichier nommé "file" contenant le texte "hello commit".
+5. Créez un nouveau fichier nommé "file" contenant le texte "hello commit".
 ```
 echo "hello_commit" > file
 ```
@@ -40,7 +48,7 @@ La redirection **>** permet de rediriger la sortie de la commande echo vers le f
 
 Ainsi, suite à l'exécution de cette commande, un fichier appelé **"file"** sera créé dans le répertoire courant contenant la chaîne de caractères **"hello_commit"**.
 
-4. Ajoutez le fichier "file" a l'index Git.
+6. Ajoutez le fichier "file" a l'index Git.
 ```
 git add file
 ```
@@ -50,7 +58,7 @@ Cela signifie que le fichier est maintenant suivi par Git et que les modificatio
 
 Il est important d'utiliser la commande **git add** avant de faire un commit pour que Git sache quels fichiers doivent être inclus dans ce commit.
 
-5. Commitez votre nouveau fichier.
+7. Commitez votre nouveau fichier.
 ```
 git commit -a -m "Mon premier Commit!"
 ```
@@ -65,7 +73,7 @@ L'option **-m** est utilisée pour spécifier le message de commit en ligne de c
 
 Donc, après avoir exécuté cette commande, un nouveau commit sera créé contenant les modifications de tous les fichiers ajoutés à l'index, avec le message de commit **"Mon premier Commit!"**.
 
-6. Exécutez une commande Git pour vérifier que votre commit a bien été enregistré.
+8. Exécutez une commande Git pour vérifier que votre commit a bien été enregistré.
 ```
 git log
 ```
